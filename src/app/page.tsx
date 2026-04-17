@@ -22,12 +22,12 @@ export default function HomePage() {
               </div>
             </div>
 
-            <Link
-              href="/demo/estetica"
-              className="inline-flex items-center justify-center rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-xs font-medium text-white/80 transition hover:bg-white/10"
+            <WhatsAppButton
+              className="bg-white px-4 py-2 text-[#0b0b12] hover:bg-white/90"
+              message="Hola, vi tu landing desde el QR del Uber. Me interesa una web para mi negocio y quiero saber cuál de tus opciones me conviene."
             >
-              Ver demo
-            </Link>
+              Consultar
+            </WhatsAppButton>
           </div>
         </Container>
       </section>
