@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Tu Web Lista",
   description:
     "Webs simples, profesionales y pensadas para negocios, emprendimientos y profesionales que venden por Instagram o WhatsApp.",
-  whatsappNumber: "1149744977",
+  whatsappNumber: "5491149744977",
   whatsappMessage:
     "Hola, vi tu web desde el QR del Uber. Me interesa tener una web para mi negocio y quiero saber cuál de tus opciones me conviene.",
 };
