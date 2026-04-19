@@ -312,6 +312,7 @@ export default async function DemoPage({ params }: Props) {
       <section className="border-y border-white/8 bg-[linear-gradient(180deg,#12121b_0%,#151522_100%)] py-16 sm:py-20">
         <Container>
           <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
+            {" "}
             <div className="rounded-[2rem] border border-white/8 bg-white/[0.04] p-6 shadow-[0_18px_50px_rgba(0,0,0,0.22)] sm:p-10">
               <p
                 className={`text-xs font-semibold uppercase tracking-[0.18em] sm:text-sm ${theme.sectionAccent}`}
@@ -348,8 +349,8 @@ export default async function DemoPage({ params }: Props) {
                 ))}
               </div>
             </div>
-
-            <div className="rounded-[2rem] border border-white/8 bg-white/[0.04] p-5 shadow-[0_18px_50px_rgba(0,0,0,0.22)] sm:p-8">
+            <div className="hidden rounded-[2rem] border border-white/8 bg-white/[0.04] p-5 shadow-[0_18px_50px_rgba(0,0,0,0.22)] sm:p-8 lg:block">
+              {" "}
               <div
                 className={`rounded-[1.5rem] p-4 sm:p-5 ${theme.previewAccent}`}
               >
